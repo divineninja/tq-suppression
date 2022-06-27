@@ -1,0 +1,142 @@
+.large-question {
+	position: absolute;
+	top: 0;
+	background: rgba(0,0,0,0.8);
+	border: 1px solid #DDD;
+	width: 77%;
+	font-size: 2em;
+	padding: 10px;
+	color: #FFF;
+	z-index: 1;
+	box-shadow: 1px 1px 1px #DDD;
+	border-radius: 10px 10px 0 0;
+}
+.crm-enlarge {
+	cursor: pointer;
+}
+.survey-start {
+	position: relative;
+}
+#footer small {
+	color: #DDD;
+}
+.child_question {
+	display: none;
+}
+.nav-pills>li>a{
+	text-align: left;
+}
+.modal-body td select, .modal-body td input[type='text'], .modal-body td input[type='number'], .modal-body td textarea, .dataTables_filter input[type="text"] {
+	width: 390px;
+	padding: 5px 10px;
+	border: 1px solid #DDD;
+	border-radius: 5px;
+}
+.dataTables_filter input[type="text"]{
+	width: 50px;
+	transition: all 1s;
+}
+.dataTables_filter input[type="text"]:focus {
+	width: 200px;
+}
+.dataTables_paginate a:hover {
+	background: #2b6591;
+}
+.child_question {
+	transition: all 1s;
+}
+.highlight {
+	background: #C5E4FF;
+}
+.modal-body select.question-choices {
+	height: 100px;;
+	transition: all 0.4s
+}
+.modal-body select.question-choices:focus{
+	height: 300px;
+}
+.parent-container-form .remove-parent-form {
+	display: none;
+}
+.navbar {
+	border-radius: 0px;
+}
+.question-form{
+	display: none;
+}
+.post-code-select {
+	transition: all 0.4s;
+}
+.post-code-select.focus{
+	border: 1px solid #225FFD;
+}
+.detail-wrapper {
+	display: inline-block;
+	width: 100%;
+}
+.item-label-details {
+	width: 65px;
+}
+.admin-main-page ul {
+	padding: 0;
+}
+.admin-main-page ul li {
+	display: inline-block;
+	width: 15%;
+	border: 1px solid #dedede;
+	border-radius: 10px;
+}
+.admin-main-page ul li a i.fa {
+	margin-right: 10px;
+	font-size: 10em;
+	display: block;
+}
+.admin-main-page ul li:hover i{
+	color: #2b6591;
+}
+.admin-main-page ul li:hover a {
+	text-decoration: none;
+}
+
+.phone_display {
+	float: right;
+	max-height: 600px;
+	overflow-y: scroll;
+}
+.pagination_text {
+	padding: 0 0 10px;
+}
+.pagination_text li {
+	display: inline-block;
+}
+.pagination_text li a {
+	padding: 10px 0 10px;
+	background: #FAFAFA;
+	width: 29px;
+	text-align: center;
+	height: 30px;
+	display: inline-block;
+}
+.pagination_text li a:hover, .pagination_text li a.current {
+	background: #5C87A8;
+	color: #fefefe;
+	text-decoration: none;
+}
+
+.campaign_list ul li {
+	list-style: none;
+}
+
+.campaign_list ul li a {
+	display: block;	
+	padding: 5px 2px;
+}
+.campaign_list ul li a:hover, .campaign_list ul li a.current{
+	text-decoration: none;
+	background: #5C87A8;
+	color: #fefefe;
+}
+
+.search-form-phone {
+	display: none;
+}
